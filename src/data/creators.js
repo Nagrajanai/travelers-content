@@ -1,0 +1,162 @@
+// src/data/creators.js
+export const creators = [
+{
+slug: "sophie-chen",
+name: "Sophie Chen",
+location: "Paris, France",
+price: 120,
+rating: 4.9,
+reviews: 87,
+specialties: ["Photography", "Weddings", "Portraits"],
+languages: ["English", "French"],
+responseTime: "Responds within 2 hours", 
+reviewsData: [ 
+{
+reviewerName: "John Doe",
+comment: "Amazing work! Highly recommended.",
+rating: 5,
+},
+{
+reviewerName: "Jane Smith",
+comment: "Very professional and creative.",
+rating: 4,
+},
+
+],
+about: "Paris-based photographer capturing timeless moments with a blend of elegance and emotion. Available for weddings, portraits, and editorial shoots.",
+bannerImage: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=1200",
+image:
+"https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop",
+portfolio: [
+"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+"https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
+"https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800",
+"https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=800",
+"https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+],
+},
+{
+slug: "alex-martinez",
+name: "Alex Martinez",
+location: "Tokyo, Japan",
+price: 150,
+rating: 4.8,
+reviews: 65,
+about: "Paris-based photographer capturing timeless moments with a blend of elegance and emotion. Available for weddings, portraits, and editorial shoots.",
+bannerImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200",
+specialties: ["Photography", "Weddings", "Portraits"],
+languages: ["English", "French"],
+responseTime: "Responds within 2 hours", 
+reviewsData: [ 
+{
+reviewerName: "John Doe",
+comment: "Amazing work! Highly recommended.",
+rating: 5,
+},
+{
+reviewerName: "Jane Smith",
+comment: "Very professional and creative.",
+rating: 4,
+},
+
+],
+image:
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
+portfolio: [
+"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+"https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
+"https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800",
+"https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=800",
+"https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+],
+},
+{
+slug: "marcus-rodriguez",
+name: "Marcus Rodriguez",
+location: "Barcelona, Spain",
+price: 180,
+rating: 4.9,
+reviews: 120,
+specialties: ["Photography", "Weddings", "Portraits"],
+languages: ["English", "French"],
+responseTime: "Responds within 2 hours", 
+reviewsData: [ 
+{
+reviewerName: "John Doe",
+comment: "Amazing work! Highly recommended.",
+rating: 5,
+},
+{
+reviewerName: "Jane Smith",
+comment: "Very professional and creative.",
+rating: 4,
+},
+
+],
+bannerImage: "https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+image:
+"https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&h=400&fit=crop",
+portfolio: [
+"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+"https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
+"https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800",
+"https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=800",
+"https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+],
+},
+{
+slug: "anna-smith",
+name: "Anna Smith",
+location: "New York, USA",
+price: 200,
+rating: 4.8,
+reviews: 95,
+specialties: ["Photography", "Weddings", "Portraits"],
+languages: ["English", "French"],
+responseTime: "Responds within 2 hours", 
+about: "Paris-based photographer capturing timeless moments with a blend of elegance and emotion. Available for weddings, portraits, and editorial shoots.",
+bannerImage: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800",
+image:
+"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&h=400&fit=crop",
+reviewsData: [ 
+{
+reviewerName: "John Doe",
+comment: "Amazing work! Highly recommended.",
+rating: 5,
+},
+{
+reviewerName: "Jane Smith",
+comment: "Very professional and creative.",
+rating: 4,
+},
+
+],
+portfolio: [
+"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+"https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800",
+"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
+"https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800",
+"https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=800",
+"https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=800",
+"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
+"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800",
+],
+},
+];
